@@ -21,6 +21,7 @@ deny[reason] {
     number < 10
 
     reason := sprintf(
-        "Unlucky you: got %d, but 5 or more is required.# This dummy policy makes a decision based on a number received from random.org service? just to demonstrate possible usage of HTTP requests"
-[number])
+        "Unlucky you: got %d, but 5 or more is required",
+        [number]
+    )
 }
