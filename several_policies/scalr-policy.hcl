@@ -2,7 +2,7 @@ version = "v1"
 
 policy "limit_monthly_cost" {
   enabled           = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 policy "instance_types" {
     enabled = true
@@ -14,11 +14,11 @@ policy "blacklist_provider" {
 }
 policy "workspace_name" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 
 policy "random_decision" {
   enabled           = true
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
