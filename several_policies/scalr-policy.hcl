@@ -20,5 +20,5 @@ policy "workspace_name" {
 
 policy "random_decision" {
   enabled           = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "hard-mandatory"
 }
