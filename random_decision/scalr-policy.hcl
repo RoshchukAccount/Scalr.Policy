@@ -6,7 +6,6 @@ policy "workspace_name" {
   enforcement_level = "soft-mandatory"
 }
 
-
 policy "random_decision" {
   enabled           = true
   enforcement_level = "advisory"
