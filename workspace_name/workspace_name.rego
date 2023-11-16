@@ -6,5 +6,5 @@ import input.tfrun as tfrun
 
 
 deny["Forbidden workspace name.Forbidden workspace name.Forbidden workspace name.Forbidden workspace name"] {
-    not endswith(tfrun.workspace.name, "-qwerty")
+    not endswith(tfrun.workspace.name, "ws_local")
 }
