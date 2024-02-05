@@ -18,7 +18,7 @@ policy "blacklist_provider" {
 }
 */
 
-policy "random_decision" {
+/*policy "random_decision" {
   enabled           = true
   enforcement_level = "advisory"
-}
+}*/
