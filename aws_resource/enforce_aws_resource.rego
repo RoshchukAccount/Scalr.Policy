@@ -30,7 +30,7 @@ deny[reason] {
     not array_contains(allowed_resources, resource.type)
 
     reason := sprintf(
-        "%s: resource type %q is not allowed - This policy would also prevent the use of all providers except AWS. To allow other clouds with no restrictions on resource types add the following line to the rule before "not array_contains...",
+        "%s: resource type %q is not allowed - This policy would also prevent the use of all providers except AWS. To allow other clouds with no restrictions on resource types add the following line to the rule before not array_contains...",
         [resource.address, resource.type]
     )
 }
