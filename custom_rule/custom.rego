@@ -5,7 +5,7 @@ deny[reason] if {
     b := false
     c := null
     d := {"a": a, "x": [b, c]}
-    a < 0
+    a = 0
     reason := sprintf(
     	"fiasco", [d]
     )
