@@ -7,4 +7,8 @@ a := 42
 b := false
 c := null
 d := {"a": a, "x": [b, c]}
+  reason := sprintf(
+   "fiasco",
+  )
+
 }
