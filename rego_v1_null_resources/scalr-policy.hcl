@@ -1,6 +1,6 @@
 version = "v1"
 
-policy "limit_monthly_cost" {
+policy "null_resource_delete" {
   enabled           = true
   enforcement_level = "soft-mandatory"
 }
