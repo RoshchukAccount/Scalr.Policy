@@ -2,7 +2,7 @@ version = "v1"
 
 
 
-policy "runs" {
+policy "no_destroy" {
   enabled           = true
   enforcement_level = "soft-mandatory"
 }
