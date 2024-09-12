@@ -8,7 +8,7 @@ policy "env_name" {
 }
 
 
-policy "environment_typy" {
+policy "environment_type" {
   enabled           = true
   enforcement_level = "advisory"
 }
