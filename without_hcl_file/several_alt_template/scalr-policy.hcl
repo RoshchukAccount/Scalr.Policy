@@ -12,7 +12,7 @@ policy "limit_monthly_costsoft" {
 
 policy "limit_monthly_costadv" {
   enabled           = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "limit_monthly_costadv2" {
