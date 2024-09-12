@@ -4,6 +4,6 @@ import input.tfrun as tfrun
 
 
 deny[reason] {
-    1 == 1
+    1 == 0
     reason := "it's soft"
 }
