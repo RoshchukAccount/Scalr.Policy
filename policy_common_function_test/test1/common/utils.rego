@@ -1,4 +1,4 @@
-package utils
+/*package utils
 
 array_contains(arr, elem) {
   arr[_] = elem
@@ -11,4 +11,4 @@ get_basename(path) = basename{
 
 greater_than_zero(x) {
   x > 0
-}
+}*/
