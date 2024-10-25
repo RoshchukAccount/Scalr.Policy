@@ -7,5 +7,5 @@ policy "blacklist_provider" {
 
 policy "check_greater_than_zero" {
     enabled = true
-    enforcement_level = "soft-mandator"
+    enforcement_level = "soft-mandatory"
 }
