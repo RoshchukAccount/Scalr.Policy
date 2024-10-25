@@ -1,4 +1,5 @@
-/*invalid rego
+/*
+invalid rego
 file 
 ??
 */
