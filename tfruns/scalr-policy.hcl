@@ -3,6 +3,6 @@ version = "v1"
 
 
 policy "runs" {
-  enabled           = true
+  enabled           = false
   enforcement_level = "soft-mandatory"
 }
